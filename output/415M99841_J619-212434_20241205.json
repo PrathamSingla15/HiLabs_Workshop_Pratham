@@ -1,0 +1,32 @@
+{
+  "file_name": "415M99841_J619-212434_20241205",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.1459,
+    "PROBLEM": 0.2028,
+    "PROCEDURE": 0.5916,
+    "TEST": 0.363,
+    "VITAL_NAME": 0.3621,
+    "IMMUNIZATION": 0.1708,
+    "MEDICAL_DEVICE": 0.546,
+    "MENTAL_STATUS": 0.5221,
+    "SDOH": 0.3916,
+    "SOCIAL_HISTORY": 0.75
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.1357,
+    "NEGATIVE": 0.1758,
+    "UNCERTAIN": 0.4475
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.2159,
+    "CLINICAL_HISTORY": 0.2436,
+    "UPCOMING": 0.4275,
+    "UNCERTAIN": 0.6921
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.2009,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 0.1524,
+  "attribute_completeness": 0.6691
+}

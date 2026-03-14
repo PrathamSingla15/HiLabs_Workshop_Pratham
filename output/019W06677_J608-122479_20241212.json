@@ -1,0 +1,32 @@
+{
+  "file_name": "019W06677_J608-122479_20241212",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.2298,
+    "PROBLEM": 0.2612,
+    "PROCEDURE": 0.5794,
+    "TEST": 0.3418,
+    "VITAL_NAME": 0.3316,
+    "IMMUNIZATION": 0.7937,
+    "MEDICAL_DEVICE": 0.4541,
+    "MENTAL_STATUS": 0.75,
+    "SDOH": 0.7521,
+    "SOCIAL_HISTORY": 0.283
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.2219,
+    "NEGATIVE": 0.2247,
+    "UNCERTAIN": 0.2142
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.3144,
+    "CLINICAL_HISTORY": 0.2744,
+    "UPCOMING": 0.3376,
+    "UNCERTAIN": 0.4537
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.0963,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 0.0721,
+  "attribute_completeness": 0.6085
+}
